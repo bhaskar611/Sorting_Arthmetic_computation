@@ -1,10 +1,12 @@
-#!/bin/bash -x
+#!/bin/bash 
 	echo "Arithmetic Compution And Sorting"
 
 	declare -A dict
 
 	read -p "Enter first input :" a
 	read -p "Enter second input:" b
-	read -p "Enter third input :" c
-        result1=$(($a * $b + $c));
+	read -p "Enter third input :" c             
+	result=$(($a + $b * $c));
+	echo "Result:" $result
+result1=$(($a * $b + $c));
          echo "Result" $result1
