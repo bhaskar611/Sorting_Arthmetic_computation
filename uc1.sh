@@ -39,3 +39,4 @@ echo $a
 # Ascending order
 b=`printf '%s\n' "${array[@]}" | sort -n`
 echo $b
+
