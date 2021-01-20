@@ -6,7 +6,7 @@
 	read -p "Enter first input :" a
 	read -p "Enter second input:" b
 	read -p "Enter third input :" c             
-	result=$(($a + $b * $c));
-	echo "Result:" $result
-result1=$(($a * $b + $c));
-         echo "Result" $result1
+	result1=$(($a + $b * $c));
+	echo "Result:" $result1
+result2=$(($a * $b + $c));
+         echo "Result" $result2
