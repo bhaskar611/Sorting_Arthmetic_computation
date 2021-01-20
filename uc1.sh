@@ -1,6 +1,5 @@
 #!/bin/bash
 	echo "Arithmetic Compution And Sorting"
-
 	declare -A dict
 
 	read -p "Enter first input :" a
