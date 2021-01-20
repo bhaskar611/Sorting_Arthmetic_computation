@@ -7,8 +7,8 @@
 	read -p "Enter second input:" b
 	read -p "Enter third input :" c
 	result1=$(($a + $b * $c));
-	echo "Result:" $result1
+	echo "Result1:" $result1
 result2=$(($a * $b + $c));
-         echo "Result" $result2
+         echo "Result2" $result2
 result3=`echo | awk '{print '$c+$a/$b' }'`
-         echo "Result2" $result3
+         echo "Result3" $result3
