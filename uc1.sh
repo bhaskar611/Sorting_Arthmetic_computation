@@ -1,4 +1,7 @@
-#!/bin/bash 
+
+
+
+#!/bin/bash
 	echo "Arithmetic Compution And Sorting"
 
 	declare -A dict
@@ -14,3 +17,4 @@ result3=`echo | awk '{print '$c+$a/$b' }'`
          echo "Result3" $result3
 result4=`echo | awk '{print '$a%$b+$c' }'`
          echo "Result4" $result4
+
