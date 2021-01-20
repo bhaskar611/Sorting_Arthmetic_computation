@@ -10,7 +10,7 @@
 	read -p "Enter second input:" b
 	read -p "Enter third input :" c
 	result1=$(($a + $b * $c));
-	echo "Result1:" $result1
+	echo "Result:" $result1
 result2=$(($a * $b + $c));
          echo "Result2" $result2
 result3=`echo | awk '{print '$c+$a/$b' }'`
@@ -23,3 +23,4 @@ dict[result1]=$result1
 dict[result2]=$result2
 dict[result3]=$result3
 dict[result4]=$result4
+
