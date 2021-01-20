@@ -1,7 +1,4 @@
-
-
-
-#!/bin/bash
+#! /bin/bash
 	echo "Arithmetic Compution And Sorting"
 
 	declare -A dict
