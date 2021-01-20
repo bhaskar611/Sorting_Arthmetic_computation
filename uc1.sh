@@ -9,4 +9,4 @@
 	result1=$(($a + $b * $c));
 	echo "Result:" $result1
 result2=$(($a * $b + $c));
-         echo "Result" $result2
+         echo "Result2" $result2
